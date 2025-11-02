@@ -1,13 +1,14 @@
-# John Doe
-
+# John Doe 
+<!-- # = h1 , ## =h2 , -- คือ บูเลต -->
 Web Developer
 
 ## About Me
 
 (photo of John Doe: https://introduction-to-web-application.vercel.app/profile.jpg)
 
+<!-- ความกว้างรูป width = 200px -->
 
-I am a passionate web developer with experience in HTML, CSS, and
+I am a passionate web developer with experience in HTML, CSS, and∫
 JavaScript.
 
 ## Experience
