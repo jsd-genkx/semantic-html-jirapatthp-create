@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter";
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ body {
+      font-family: "Inter", monospace;
+    }
+
+p {
+  background-color: rgb(238, 233, 238) !important;
+  color: rgb(87, 83, 83);
+}
+
+
+/* <section> --> element, tag, #about, #contact --> id, .box --> class */
+
+/* #about {
+  background-color: bisque;
+  color: rgb(34, 34, 71);
+}
+
+.box {
+  background-color: #c0ddca;
+  color: rgb(66, 29, 29);
+}
+
+section {
+  background-color: mistyrose;
+  color: rgb(119, 4, 4);
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+    body {
+      font-family: "Source+Code+Pro", monospace;
+    } */
+
