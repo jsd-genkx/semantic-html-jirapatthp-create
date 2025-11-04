@@ -1,32 +1,52 @@
-
 body {
-    font-family: monospace;
-    background-image: url(https://i.pinimg.com/1200x/52/1b/72/521b7249cf6190be59e32d150fba1090.jpg);
+  font-family: monospace;
+  background-image: url(https://i.pinimg.com/1200x/52/1b/72/521b7249cf6190be59e32d150fba1090.jpg);
+  background-size: cover;          /* ให้ภาพเต็มหน้าจอ */
+  background-position: center;     /* จัดภาพให้อยู่ตรงกลาง */
+  height: 100vh;                   /* สูงเต็มจอ */
+  margin: 0;
+  display: flex;                   /* ใช้ Flexbox จัดกลาง */
+  flex-direction: column;
+  justify-content: center;         /* จัดกลางแนวตั้ง */
+  align-items: center;             /* จัดกลางแนวนอน */
+  text-align: center;              /* จัดข้อความให้อยู่กลาง */
 }
 
+/* ปรับฟอร์มให้ดูโดดเด่นขึ้นจากพื้นหลัง */
+form {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 280px;
+}
+
+/* หัวข้อ */
+h2 {
+  color: rgb(78, 78, 71);
+  margin-bottom: 1rem;
+}
+
+/* ปุ่ม */
 button {
-    font-family:monospace;
-    background-color: rgb(246, 235, 241);
-    color: rgb(55, 52, 52);
-    padding: 0.5rem 1rem;
-    border: solid rgb(188, 187, 172);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+  font-family: monospace;
+  background-color: rgb(246, 235, 241);
+  color: rgb(55, 52, 52);
+  padding: 0.5rem 1rem;
+  border: solid rgb(188, 187, 172);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.2s ease-in-out;
 }
-
 
 button:hover {
-    cursor: pointer;
-    scale: 1.05;
+  cursor: pointer;
+  scale: 1.05;
 }
 
 button:active {
-    color: rgb(244, 234, 143);
-}
-
-h2 {
-    color: rgb(78, 78, 71);
+  color: rgb(244, 234, 143);
 }
