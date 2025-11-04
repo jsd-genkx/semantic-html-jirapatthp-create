@@ -1,0 +1,32 @@
+
+body {
+    font-family: monospace;
+    background-image: url(https://i.pinimg.com/1200x/52/1b/72/521b7249cf6190be59e32d150fba1090.jpg);
+}
+
+button {
+    font-family:monospace;
+    background-color: rgb(246, 235, 241);
+    color: rgb(55, 52, 52);
+    padding: 0.5rem 1rem;
+    border: solid rgb(188, 187, 172);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+button:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+button:active {
+    color: rgb(244, 234, 143);
+}
+
+h2 {
+    color: rgb(78, 78, 71);
+}
